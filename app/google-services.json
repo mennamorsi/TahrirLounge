@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1037915356170",
+    "firebase_url": "https://tahrirlounge-e42ce.firebaseio.com",
+    "project_id": "tahrirlounge-e42ce",
+    "storage_bucket": "tahrirlounge-e42ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037915356170:android:9411d404f0ecd3de",
+        "android_client_info": {
+          "package_name": "com.menna.officialtahrirlounge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037915356170-m68n9pfi0m1490dij4m62rq48gh7mp7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.menna.officialtahrirlounge",
+            "certificate_hash": "8c50a6234f680bcafd7a0caceb640c6870a397d7"
+          }
+        },
+        {
+          "client_id": "1037915356170-m4fhalpu5t59ogjp72oiqdanlvc3rghv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG5ah3EbWlB04B5it7z3yzjDOI_-6vuds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037915356170-m4fhalpu5t59ogjp72oiqdanlvc3rghv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

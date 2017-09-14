@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_gallary"
+            android:icon="@drawable/gallary"
+            android:title="Gallary" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/team"
+            android:title="Our Team" />
+        <item
+            android:id="@+id/nav_partner"
+            android:icon="@drawable/team"
+            android:title="Our Partners" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@mipmap/facebook"
+                    android:title="FaceBook"
+                    />
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@mipmap/youtube"
+                    android:title="Youtube"
+                    />
+                <item
+                    android:id="@+id/nav_twitter"
+                    android:icon="@mipmap/twitter"
+                    android:title="Twitter"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

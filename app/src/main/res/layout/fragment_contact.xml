@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.menna.officialtahrirlounge.Fragment.ContactFragment"
+    android:background="#bddbe2"
+    >
+
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@mipmap/teamwork"
+      android:layout_alignParentTop="true"
+      android:contentDescription="teamwork" />
+
+
+  <android.support.v7.widget.CardView
+
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:id="@+id/contact"
+      android:layout_marginBottom="15dp"
+      android:layout_centerHorizontal="true"
+      card_view:cardCornerRadius="12dp"
+
+      >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Tahrir Lounge"
+          android:id="@+id/tahrir"
+          android:layout_above="@+id/mobile"
+          android:layout_toRightOf="@+id/call"
+          android:textSize="20sp"
+         android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:textStyle="bold"
+          android:textColor="@color/colorPrimaryDark"
+
+
+          />
+
+      <ImageView
+          android:id="@+id/call"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="@dimen/contacttoplarge"
+          android:src="@mipmap/call" />
+
+      <TextView
+          android:id="@+id/mobile"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/call"
+          android:layout_toRightOf="@+id/call"
+          android:text="+20 111-883-7086"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      <ImageView
+          android:id="@+id/email"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/call"
+          android:layout_below="@+id/call"
+          android:src="@mipmap/mail" />
+
+
+      <TextView
+          android:id="@+id/mail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/email"
+          android:layout_toRightOf="@+id/call"
+          android:text="info@tahrirlounge.net"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      <ImageView
+          android:id="@+id/eweb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/email"
+          android:layout_alignStart="@+id/email"
+          android:layout_below="@+id/mail"
+          android:layout_marginTop="@dimen/contacttoplarge"
+          android:src="@mipmap/web" />
+
+
+      <TextView
+          android:id="@+id/web"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/eweb"
+          android:layout_alignLeft="@+id/mail"
+          android:layout_alignStart="@+id/mail"
+          android:text="@string/www_tahrirlounge_org"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          android:autoLink="all"
+          android:clickable="true"/>
+
+
+      <ImageView
+          android:id="@+id/location"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignStart="@+id/eweb"
+          android:layout_below="@+id/web"
+          android:layout_marginTop="@dimen/contacttoplarge"
+          android:src="@mipmap/address" />
+
+
+      <TextView
+          android:id="@+id/address"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/location"
+          android:layout_alignStart="@+id/web"
+          android:text="@string/el_bostan_street_cairo"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      <ImageView
+          android:id="@+id/time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignStart="@+id/location"
+          android:layout_below="@+id/address"
+          android:layout_marginTop="@dimen/contacttoplarge"
+          android:src="@mipmap/watch" />
+
+      <TextView
+          android:id="@+id/timework"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/time"
+          android:layout_alignStart="@+id/address"
+          android:text="@string/from_09_00_to_16_00"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      <Button
+          android:id="@+id/map_button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/get_map_location"
+          android:background="@drawable/buttonstyle"
+          android:padding="20dp"
+          android:textColor="#fff"
+          android:textSize="15sp"
+          android:layout_marginTop="15dp"
+          android:layout_marginBottom="40dp"
+          android:layout_below="@+id/timework"
+          android:layout_centerHorizontal="true"
+          />
+
+
+    </RelativeLayout>
+
+  </android.support.v7.widget.CardView>
+
+</RelativeLayout>
